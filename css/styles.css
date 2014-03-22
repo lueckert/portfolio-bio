@@ -237,8 +237,51 @@ nav a:active {
     text-align: right;
   }
 
-
-
 }
+
+@media screen and (min-width : 400px) {
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+  width:100%;
+}
+#logo object {
+  max-width: 60%;
+}
+#nav ul {
+  margin: 5% 0;
+}
+
+#nav ul li a {
+  -webkit-user-select: none;
+  font-size: 1em;
+}
+
+#nav ul li {
+  float: left;
+  margin: 5% 0;
+  }
+  #nav ul  li.resume {
+    width: 20%;
+    text-align: left;
+  }
+  #nav ul  li.bio {
+    width: 55%;
+    text-align: center;
+  }
+  #nav ul  li.home {
+    width: 25%;
+    text-align: right;
+  }
 
 }
